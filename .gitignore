@@ -1,0 +1,35 @@
+# .gitignore
+# 1. Build Artifacts
+build/
+bin/
+lib/
+*.so
+*.dylib
+*.dll
+*.exe
+
+# 2. Python Junk
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# 3. IDE Settings (Don't force your VS Code settings on others)
+.vscode/
+.idea/
+
+# 4. Dependency Managers
+conan_toolchain.cmake
+conanrunenv*
+CMakeUserPresets.json
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
